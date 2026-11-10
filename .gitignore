@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Output directories
+output/
+test_output/
+
+# Test Datasets
+test_dataset/
+test dataset/
+
+# Logs and scratch
+*.log
+.DS_Store
+
+# Virtual environments
+venv/
+.venv/
+.venv312/
+env/

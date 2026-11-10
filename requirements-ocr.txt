@@ -1,0 +1,19 @@
+# ==============================================================================
+# UNIVERSAL DOCUMENT PROCESSOR - OCR ENGINE REQUIREMENTS
+# ==============================================================================
+# Compatible with Python 3.10, 3.11, 3.12, 3.13 (Ubuntu / Linux, Windows, macOS)
+# Install with: pip install -r requirements-ocr.txt
+#
+# Core compatibility pins to avoid dependency resolver conflicts
+numpy>=1.24.0,<2.4.0
+Pillow>=12.2.0
+typing-extensions>=4.16.0
+idna>=3.18
+
+# Core PaddleOCR 3.x Deep-Learning Engines:
+paddlepaddle>=3.0.0
+paddleocr>=3.0.0
+paddlex>=3.0.0
+
+# Optional Tesseract OCR Python Wrapper:
+pytesseract>=0.3.10

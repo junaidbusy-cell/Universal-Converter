@@ -1,0 +1,40 @@
+# ==============================================================================
+# UNIVERSAL DOCUMENT PROCESSOR - CORE RUNTIME REQUIREMENTS
+# ==============================================================================
+# Compatible with Python 3.10, 3.11, 3.12, 3.13 (Ubuntu / Linux, Windows, macOS)
+# Install with: pip install -r requirements.txt
+
+# HTML / XML / Markdown DOM Parsing
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+html5lib>=1.1
+charset-normalizer>=3.0.0
+markdownify>=0.11.0
+pyyaml>=6.0
+
+# Microsoft Word Documents (.docx)
+python-docx>=1.0.0
+
+# Microsoft Excel Spreadsheets (.xlsx)
+openpyxl>=3.1.0
+defusedxml>=0.7.0
+
+# Microsoft PowerPoint Slides (.pptx)
+python-pptx>=0.6.21
+
+# Webpage Scraping & Academic Paper Retrieval (DOI)
+httpx>=0.25.0
+trafilatura>=1.6.0
+idna>=3.18
+
+# Core Schemas & Typing
+typing-extensions>=4.16.0
+
+# Image & PDF Processing (compatible with PaddleX & pdfplumber)
+Pillow>=12.2.0
+numpy>=1.24.0,<2.4.0
+PyMuPDF>=1.23.0
+pdfplumber>=0.10.0
+
+# TOML Parsing compatibility (built-in in Python 3.11+, fallback for Python 3.10)
+toml>=0.10.2; python_version < "3.11"
